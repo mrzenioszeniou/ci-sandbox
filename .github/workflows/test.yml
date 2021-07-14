@@ -1,5 +1,12 @@
 name: Test Coverage
-on: [push]
+
+on:
+  push:
+    branches:
+      - master
+      - ci/test
+  pull_request:
+
 jobs:
   test_coverage:
     name: Test Coverage
