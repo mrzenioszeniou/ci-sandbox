@@ -3,7 +3,7 @@ use ci_sandbox::Stuff;
 #[test]
 fn stuff() {
 
-  const N : usize = 100_000_000;
+  const N : usize = 10_000_000;
 
   for i in 0..N {
 
